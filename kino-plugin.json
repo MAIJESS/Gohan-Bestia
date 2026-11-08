@@ -1,0 +1,105 @@
+{
+  "id": "theme-gohan-bestia",
+  "name": "Gohan Bestia",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema oscuro violeta con aura eléctrica y logo propio para toda la app de Kino TV",
+  "author": "Gohan Bestia Theme",
+  "hosts": [],
+  "categories": ["themes"],
+  "color": "#9B5CFF",
+  "icon": "icon.png",
+  "appThemes": [
+    {
+      "id": "gohan-bestia",
+      "name": { "es": "Gohan Bestia", "en": "Beast Gohan" },
+      "experience": "full",
+      "pluginColors": "respect",
+      "colors": {
+        "accent": "#9B5CFF",
+        "onAccent": "#0B0614",
+        "background": "#0B0614",
+        "surface": "#151024",
+        "surfaceHigh": "#211838",
+        "railPanel": "#100A20",
+        "textPrimary": "#F4F0FF",
+        "textSecondary": "#B9AED6",
+        "focus": "#FFFFFF",
+        "onFocus": "#000000",
+        "outline": "#3A2A66",
+        "border": "#7A45D8",
+        "favorite": "#FFD54F"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#0B0614", "#1A0B33", "#0B0614"],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 8,
+        "channelRadius": 8,
+        "buttonRadius": 10,
+        "chipRadius": 10,
+        "dialogRadius": 12,
+        "inputRadius": 8,
+        "dialogBorder": 2,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": { "scale": 1.0, "titleScale": 1.08, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.7, "dialogShadow": 0.9, "heroScrim": 0.75 },
+      "motion": { "focusZoom": 1.08, "crossfadeMs": 250, "heroDrift": "on" },
+      "player": {
+        "buttonScale": 1.0,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.2,
+        "labelScale": 1.0,
+        "buttonShape": "rounded"
+      },
+      "tv": {
+        "typography": { "scale": 1.05 },
+        "shape": { "cardRadius": 6, "channelRadius": 6 }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": ["#9B5CFF", "#E6E0FF", "#4DD0FF", "#FF5C5C", "#FFB300"]
+        },
+        "shape.cardRadius": { "min": 0, "max": 20 },
+        "typography.scale": { "min": 1.0, "max": 1.25 },
+        "player.seekBarScale": { "min": 1.0, "max": 1.6 },
+        "background": true
+      },
+      "logo": {
+        "wordmark": {
+          "size": [136, 30],
+          "paths": [
+            {
+              "d": "M12 0 L2 17 H10 L6 30 L20 11 H11 L16 0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M28 3 H46 V8 H28 Z M28 3 H33 V27 H28 Z M28 22 H46 V27 H28 Z M41 14 H46 V27 H41 Z M36 14 H46 V19 H36 Z M50 3 H68 V8 H50 Z M50 22 H68 V27 H50 Z M50 3 H55 V27 H50 Z M63 3 H68 V27 H63 Z M72 3 H77 V27 H72 Z M85 3 H90 V27 H85 Z M72 13 H90 V18 H72 Z M94 3 H112 V8 H94 Z M94 3 H99 V27 H94 Z M107 3 H112 V27 H107 Z M94 15 H112 V20 H94 Z M116 3 H121 V27 H116 Z M129 3 H134 V27 H129 Z M121 3 H126 L129 27 H124 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [30, 30],
+          "paths": [
+            {
+              "d": "M15 0 L19 9 L28 5 L22 13 L30 17 L21 20 L24 30 L15 24 L6 30 L9 20 L0 17 L8 13 L2 5 L11 9 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M17 7 L9 17 H14 L12 25 L21 13 H16 Z",
+              "fill": "onAccent"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
